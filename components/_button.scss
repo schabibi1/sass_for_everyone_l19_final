@@ -1,0 +1,25 @@
+.btn {
+	padding: 0.625rem 1rem;
+	border-radius: 0.2rem;
+	font-size: 1.1rem;
+}
+
+.btn-submit {
+	background-color: #036;
+	border: 0.06rem solid #036;
+	border-bottom: 0.3rem solid #001E46;
+	color: $basic_color;
+}
+
+.btn-submit:hover {
+	background-color: #5184B8;
+	border-color: #5184B8;
+	border-bottom: 0.3rem solid #0052C2;
+	color: $basic_color;
+}
+
+@media (min-width: 600px) {
+	.submit-button-wrapper {
+		text-align: right;
+	}
+}
