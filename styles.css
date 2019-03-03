@@ -1,3 +1,4 @@
+/* Grid */
 .container {
   width: 100%;
   padding: 0 0.9rem;
@@ -74,10 +75,6 @@ body {
   margin: 0;
   color: #d2e1dd; }
 
-label {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem; }
-
 select {
   height: 2.8rem; }
 
@@ -90,7 +87,7 @@ textarea {
   border-bottom: 0.3rem solid #2b2d33;
   padding: 0.6rem;
   background: #484c55;
-  border-radius: 0.25rem;
+  border-radius: 0.2rem;
   outline: none;
   font-size: 1.1rem;
   font-weight: 200;
@@ -132,7 +129,7 @@ textarea {
 
 .btn-submit {
   background-color: #036;
-  border: 0.06rem solid #036;
+  border-color: #036;
   border-bottom: 0.3rem solid #001E46;
   color: #fff; }
 

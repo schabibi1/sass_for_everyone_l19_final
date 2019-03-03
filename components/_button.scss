@@ -1,19 +1,19 @@
 .btn {
 	padding: 0.625rem 1rem;
-	border-radius: 0.2rem;
-	font-size: 1.1rem;
+	border-radius: $button_form_radius;
+	font-size: $fontsize_small;
 }
 
 .btn-submit {
-	background-color: #036;
-	border: 0.06rem solid #036;
+	background-color: $navy;
+	border-color: $navy;
 	border-bottom: 0.3rem solid #001E46;
 	color: $basic_color;
 }
 
 .btn-submit:hover {
-	background-color: #5184B8;
-	border-color: #5184B8;
+	background-color: $light_blue;
+	border-color: $light_blue;
 	border-bottom: 0.3rem solid #0052C2;
 	color: $basic_color;
 }
